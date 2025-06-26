@@ -4,14 +4,14 @@ from socket import socket
 from concurrent.futures import ThreadPoolExecutor
 
 #if a connection can be made then return true. False otherwise
-def test_port_number(host, port):
+def test_port_number(ip, port):
     #create and configure the socket
     with socket(AF_INET, SOCK_STREAM) as sock:
         #set a timeout a few seconds
         sock.settimeout(3)
         #connection may fail
         try:
-            sock.connect((host, port))
+            sock.connect((ip, port))
             #succesful connection was made 
             return True
         except:
@@ -19,14 +19,14 @@ def test_port_number(host, port):
             return False
         
  #scan port number on a host       
-def port_scan(host, ports):
-    print(f'Scanning {host}...')
+def port_scan(ip, ports):
+    print(f'Scanning {ip}...')
     #create thread pool
     with ThreadPoolExecutor(len(ports)) as executor:
         #dispatch all tasks 
-        results = executor.map(test_port_number, [host]*len(ports), ports)
+        results = executor.map(test_port_number, [ip]*len(ports), ports)
         #results in order
         for port, is_open in zip(ports, results):
             if is_open:
-                print(f'> {host} : {port} is open \n')
+                print(f'> {ip} : {port} is open \n')
 
