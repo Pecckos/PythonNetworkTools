@@ -1,7 +1,5 @@
-from socket import SOCK_STREAM
-from socket import AF_INET
+from socket import SOCK_STREAM, AF_INET
 import socket 
-from concurrent.futures import ThreadPoolExecutor
 
 #Get maximum 1024 bytes from the socket, convert to text and trim it.
 def banner_grabber(ip, port):

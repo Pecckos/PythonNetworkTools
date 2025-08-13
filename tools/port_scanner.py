@@ -1,5 +1,4 @@
-from socket import AF_INET
-from socket import SOCK_STREAM
+from socket import AF_INET, SOCK_STREAM
 from socket import socket 
 from concurrent.futures import ThreadPoolExecutor
 

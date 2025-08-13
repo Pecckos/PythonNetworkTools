@@ -1,7 +1,5 @@
 import sys
-from tools import ip_tracker
-from tools import port_scanner
-from tools import banner_grabber
+from tools import ip_tracker, port_scanner, banner_grabber
 from pyfiglet import Figlet
 
 def print_banner():
@@ -17,7 +15,7 @@ def print_menu():
     '"""""""""""""""""""')
 
 def run_ip_tracker():
-    ip = input('Enter a IP-Adress to track: 3').strip()
+    ip = input('Enter a IP-Adress to track: ').strip()
     ip_tracker.get_info_by_ip(ip)
 
 def run_port_scanner():
@@ -46,7 +44,7 @@ def main():
             run_banner_grabber()
         elif choice == "4":
             print('Closing program')
-            sys.exit(3)
+            sys.exit()
         else:
             print('Wrong choice, try again!')
 

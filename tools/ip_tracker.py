@@ -1,5 +1,4 @@
 import requests
-from pyfiglet import Figlet
 import folium
 
 
