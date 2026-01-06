@@ -20,12 +20,13 @@ def run_ip_tracker():
 
 def run_port_scanner():
     ip = input('Enter a IP Adress to scan: ').strip()
-    port = range(1024)
+    port = [21, 22, 23, 25, 53, 80, 110, 143, 443, 445, 
+                3306, 3389, 5432, 5900, 8080, 8443, 9200, 27017, 50070]
     port = port_scanner.port_scan(ip, port)
 
 def run_banner_grabber():
     ip = input('Enter a IP-Adress to scan: ').strip()
-    ports = [21, 22, 23, 25, 53, 80, 110, 135, 139, 143, 443, 445, 3389, 8080]
+    ports = [21, 22, 23, 25, 53, 67, 68, 80, 110, 123, 139, 143, 443, 445, 3389, 8080]
     for port in ports:
         banner_grabber.banner_grabber(ip, port)
 
