@@ -1,3 +1,14 @@
+#!/usr/bin/env python3
+"""
+PythonNetworkTools
+Main entry point for the application.
+
+Author: Jessica Bjurlerstam
+Date: 2026-01-07
+"""
+
+
+
 import sys
 from tools import ip_tracker, port_scanner, banner_grabber
 from pyfiglet import Figlet
