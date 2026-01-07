@@ -7,7 +7,7 @@ Author: Jessica Bjurlerstam
 Date: 2026-01-07
 """
 
-
+# A simple comment from the Applied Script class partner since it is required
 
 import sys
 from tools import ip_tracker, port_scanner, banner_grabber
