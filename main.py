@@ -108,8 +108,16 @@ def main():
     print_banner()
     while True:
         print_menu()
-        choice = input("Select an option: ").strip()
-        logging.info(f"User selected option: {choice}")
+
+        choice = input("Select an option (1-4): ").strip()
+        if not choice.isdigit():
+            print("Invalid input. Please enter a number between 1 and 4.")
+            logging.warning(f"Invalid menu input: {choice}")
+            continue
+        if choice not in {"1", "2", "3", "4"}:
+            print("Invalid choice. Please select a valid option (1-4).")
+            logging.warning(f"Invalid menu choice: {choice}")
+            continue
 
         if choice == "1":
             run_ip_tracker()
