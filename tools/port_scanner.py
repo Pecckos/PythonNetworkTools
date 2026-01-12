@@ -12,7 +12,7 @@ def test_port_number(ip, port):
     except:
         return False
         
-           
+  #Function to scan a list of ports on a given IP address         
 def port_scan(ip, ports):
     print(f"Scanning {ip}...\n")
     #use threadpoolexecutor to speed up the process

@@ -160,13 +160,15 @@ The modular structure allows logging to be extended easily in future versions.
 
 ## 🛣️ Roadmap (Future Development)
 
-- Add structured logging to file
+- Add DNS lookup tool to reveal underlying IP addresses and DNS records
 
-- Add CLI-only mode (no menu)
+- Add Network Validator to verify and classify IP addresses and networks before scanning
 
-- Add Password_Cracker function
+- Add CLI-only mode (no interactive menu)
 
-- Add IPv6 support
+- Add Password_Cracker function (educational and controlled use only)
+
+- Add IPv6 support for modern network environments
 
 ---
 
