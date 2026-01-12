@@ -42,7 +42,7 @@ def check_internet_connection():
         
 def print_menu():
     print('\n')
-    print('"""[MENUE]""" \n' \
+    print('"""[MENU]""" \n' \
     '1. IP Tracker \n' \
     '2. PortScanner \n' \
     '3. Banner Grabber \n' \
@@ -119,6 +119,7 @@ def main():
             run_banner_grabber()
         elif choice == "4":
             print("Closing program")
+            logging.info("Program terminated by user.")
             sys.exit()
         else:
             print("Wrong choice, try again!")
