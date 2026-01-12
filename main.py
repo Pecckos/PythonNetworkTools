@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 PythonNetworkTools
 Main entry point for the application.
