@@ -1,0 +1,111 @@
+2026-01-12 13:05:52 | INFO | Logging initialized.
+2026-01-12 13:05:52 | INFO | Program started.
+2026-01-12 13:05:58 | INFO | User selected option: 1
+2026-01-12 13:06:03 | INFO | IP information retrieved for 90.225.7.30: {'status': 'success', 'country': 'Sweden', 'countryCode': 'SE', 'region': 'AB', 'regionName': 'Stockholm County', 'city': 'Solna', 'zip': '171 58', 'lat': 59.3591, 'lon': 17.9951, 'timezone': 'Europe/Stockholm', 'isp': 'Telia Company AB', 'org': 'Telia Company AB', 'as': 'AS3301 Telia Company AB', 'query': '90.225.7.30'}
+2026-01-12 13:06:03 | INFO | Map saved as 90.225.7.30 Solna.html
+2026-01-12 13:06:03 | INFO | IP Tracker run for IP: 90.225.7.30
+2026-01-12 13:06:06 | INFO | User selected option: 2
+2026-01-12 13:06:10 | INFO | Starting port scan on 90.225.7.30 for ports: [21, 22, 23, 25, 53, 80, 110, 143, 443, 445, 3306, 3389, 5432, 5900, 8080, 8443, 9200, 27017, 50070]
+2026-01-12 13:06:13 | ERROR | Port 22 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | ERROR | Port 21 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | WARNING | Port 21 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | WARNING | Port 22 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | ERROR | Port 53 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | ERROR | Port 25 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | ERROR | Port 23 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | WARNING | Port 23 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | WARNING | Port 25 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | ERROR | Port 143 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | ERROR | Port 110 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | ERROR | Port 80 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | WARNING | Port 53 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | WARNING | Port 80 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | ERROR | Port 445 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | ERROR | Port 3389 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | ERROR | Port 5900 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | ERROR | Port 8080 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | ERROR | Port 443 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | ERROR | Port 5432 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | ERROR | Port 3306 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | WARNING | Port 110 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | ERROR | Port 8443 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | ERROR | Port 27017 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | ERROR | Port 9200 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | WARNING | Port 143 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | ERROR | Port 50070 on 90.225.7.30 is closed.
+2026-01-12 13:06:13 | WARNING | Port 443 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | WARNING | Port 445 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | WARNING | Port 3306 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | WARNING | Port 3389 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | WARNING | Port 5432 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | WARNING | Port 5900 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | WARNING | Port 8080 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | WARNING | Port 8443 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | WARNING | Port 9200 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | WARNING | Port 27017 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | WARNING | Port 50070 on 90.225.7.30 is not open.
+2026-01-12 13:06:13 | INFO | Port Scanner run for IP: 90.225.7.30
+2026-01-12 13:06:20 | INFO | User selected option: 4
+2026-01-12 13:07:28 | INFO | Logging initialized.
+2026-01-12 13:07:28 | INFO | Program started.
+2026-01-12 13:07:33 | INFO | User selected option: 2
+2026-01-12 13:07:39 | INFO | Starting port scan on  for ports: [21, 22, 23, 25, 53, 80, 110, 143, 443, 445, 3306, 3389, 5432, 5900, 8080, 8443, 9200, 27017, 50070]
+2026-01-12 13:07:39 | ERROR | Port 21 on  is closed.
+2026-01-12 13:07:39 | ERROR | Port 22 on  is closed.
+2026-01-12 13:07:39 | ERROR | Port 23 on  is closed.
+2026-01-12 13:07:39 | ERROR | Port 53 on  is closed.
+2026-01-12 13:07:39 | ERROR | Port 25 on  is closed.
+2026-01-12 13:07:39 | ERROR | Port 80 on  is closed.
+2026-01-12 13:07:39 | ERROR | Port 443 on  is closed.
+2026-01-12 13:07:39 | ERROR | Port 110 on  is closed.
+2026-01-12 13:07:39 | ERROR | Port 3389 on  is closed.
+2026-01-12 13:07:39 | ERROR | Port 3306 on  is closed.
+2026-01-12 13:07:39 | ERROR | Port 445 on  is closed.
+2026-01-12 13:07:39 | ERROR | Port 5432 on  is closed.
+2026-01-12 13:07:39 | ERROR | Port 143 on  is closed.
+2026-01-12 13:07:39 | ERROR | Port 8443 on  is closed.
+2026-01-12 13:07:39 | ERROR | Port 8080 on  is closed.
+2026-01-12 13:07:39 | ERROR | Port 27017 on  is closed.
+2026-01-12 13:07:39 | ERROR | Port 50070 on  is closed.
+2026-01-12 13:07:39 | WARNING | Port 21 on  is not open.
+2026-01-12 13:07:39 | ERROR | Port 9200 on  is closed.
+2026-01-12 13:07:39 | WARNING | Port 22 on  is not open.
+2026-01-12 13:07:39 | WARNING | Port 23 on  is not open.
+2026-01-12 13:07:39 | WARNING | Port 25 on  is not open.
+2026-01-12 13:07:39 | WARNING | Port 53 on  is not open.
+2026-01-12 13:07:39 | WARNING | Port 80 on  is not open.
+2026-01-12 13:07:39 | WARNING | Port 110 on  is not open.
+2026-01-12 13:07:39 | WARNING | Port 143 on  is not open.
+2026-01-12 13:07:39 | WARNING | Port 443 on  is not open.
+2026-01-12 13:07:39 | WARNING | Port 445 on  is not open.
+2026-01-12 13:07:39 | WARNING | Port 3306 on  is not open.
+2026-01-12 13:07:39 | WARNING | Port 3389 on  is not open.
+2026-01-12 13:07:39 | WARNING | Port 5432 on  is not open.
+2026-01-12 13:07:39 | ERROR | Port 5900 on  is closed.
+2026-01-12 13:07:39 | WARNING | Port 5900 on  is not open.
+2026-01-12 13:07:39 | WARNING | Port 8080 on  is not open.
+2026-01-12 13:07:39 | WARNING | Port 8443 on  is not open.
+2026-01-12 13:07:39 | WARNING | Port 9200 on  is not open.
+2026-01-12 13:07:39 | WARNING | Port 27017 on  is not open.
+2026-01-12 13:07:39 | WARNING | Port 50070 on  is not open.
+2026-01-12 13:07:39 | INFO | Port Scanner run for IP: 
+2026-01-12 13:07:44 | INFO | User selected option: 1
+2026-01-12 13:07:52 | INFO | IP information retrieved for 90.225.7.30: {'status': 'success', 'country': 'Sweden', 'countryCode': 'SE', 'region': 'AB', 'regionName': 'Stockholm County', 'city': 'Solna', 'zip': '171 58', 'lat': 59.3591, 'lon': 17.9951, 'timezone': 'Europe/Stockholm', 'isp': 'Telia Company AB', 'org': 'Telia Company AB', 'as': 'AS3301 Telia Company AB', 'query': '90.225.7.30'}
+2026-01-12 13:07:52 | INFO | Map saved as 90.225.7.30 Solna.html
+2026-01-12 13:07:52 | INFO | IP Tracker run for IP: 90.225.7.30
+2026-01-12 13:08:12 | INFO | Logging initialized.
+2026-01-12 13:08:12 | INFO | Program started.
+2026-01-12 13:08:16 | INFO | User selected option: 1
+2026-01-12 13:08:21 | INFO | IP information retrieved for 90.225.7.30: {'status': 'success', 'country': 'Sweden', 'countryCode': 'SE', 'region': 'AB', 'regionName': 'Stockholm County', 'city': 'Solna', 'zip': '171 58', 'lat': 59.3591, 'lon': 17.9951, 'timezone': 'Europe/Stockholm', 'isp': 'Telia Company AB', 'org': 'Telia Company AB', 'as': 'AS3301 Telia Company AB', 'query': '90.225.7.30'}
+2026-01-12 13:08:21 | INFO | Map saved as 90.225.7.30 Solna.html
+2026-01-12 13:08:21 | INFO | IP Tracker run for IP: 90.225.7.30
+2026-01-12 13:08:52 | INFO | Logging initialized.
+2026-01-12 13:08:52 | INFO | Program started.
+2026-01-12 13:08:55 | INFO | User selected option: 1
+2026-01-12 13:09:01 | INFO | IP information retrieved for 90.225.7.30: {'status': 'success', 'country': 'Sweden', 'countryCode': 'SE', 'region': 'AB', 'regionName': 'Stockholm County', 'city': 'Solna', 'zip': '171 58', 'lat': 59.3591, 'lon': 17.9951, 'timezone': 'Europe/Stockholm', 'isp': 'Telia Company AB', 'org': 'Telia Company AB', 'as': 'AS3301 Telia Company AB', 'query': '90.225.7.30'}
+2026-01-12 13:09:01 | INFO | Map saved as 90.225.7.30 Solna.html
+2026-01-12 13:09:01 | INFO | IP Tracker run for IP: 90.225.7.30
+2026-01-12 13:09:38 | INFO | Logging initialized.
+2026-01-12 13:09:38 | INFO | Program started.
+2026-01-12 13:09:40 | INFO | User selected option: 1
+2026-01-12 13:09:41 | INFO | IP information retrieved for dsads: {'status': 'fail', 'message': 'invalid query', 'query': 'dsads'}
