@@ -152,9 +152,6 @@ All errors and exceptional conditions are handled without crashing the program.
 
 Network timeouts and unreachable hosts are reported clearly to the user.
 
-The modular structure allows logging to be extended easily in future versions.
-
-(Logging to file can be added as a planned enhancement.)
 
 ---
 
