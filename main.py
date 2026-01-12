@@ -1,3 +1,14 @@
+#!/usr/bin/env python3
+"""
+PythonNetworkTools
+Main entry point for the application.
+
+Author: Jessica Bjurlerstam
+Date: 2026-01-07
+"""
+
+# A simple comment from the Applied Script class partner since it is required
+
 import sys
 import platform
 import socket
