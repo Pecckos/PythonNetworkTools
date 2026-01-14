@@ -14,7 +14,7 @@ import socket
 import logging
 import argparse
 from tools import ip_tracker, port_scanner, banner_grabber
-from utils.logging import setup_logging
+from utils.logging_file import setup_logging
 from pyfiglet import Figlet
 
 #This function prints a stylized banner using the pyfiglet library
@@ -86,7 +86,6 @@ def argument_parser():
             "Pecckos PythonNetworkTools\n"
             "A menu-driven toolkit for basic network reconnaissance tasks.\n\n"
             "Example usage:\n"
-            "  python3 main.py --help \n"
             "  python3 main.py --version"
         ),
         formatter_class=argparse.RawTextHelpFormatter
@@ -99,7 +98,7 @@ def argument_parser():
 #The main function is the execution of the script, including environment checks and user interaction
 def main():
     argument_parser()
-    check_os()
+    #check_os()
     check_internet_connection()
     print("Environment check passed. Starting the tool...\n")
     setup_logging()
