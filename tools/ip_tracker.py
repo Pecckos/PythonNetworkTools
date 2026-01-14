@@ -3,8 +3,8 @@ import folium
 import logging
 import ipaddress 
 
-# Function to get geolocation info by using IP address
-# Fetches data from ip-api.com see the json result and trasnform it to an python directory and generates an HTML map with the location
+#Function to get geolocation info by using IP address
+#Fetches data from ip-api.com see the json result and trasnform it to an python directory and generates an HTML map with the location
 def get_info_by_ip(ip):
     try:
         #validate IP address
