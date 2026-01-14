@@ -2,9 +2,9 @@ import socket
 import logging
 import ipaddress
 
-# Function to grab banner from a given IP and port
-# AF_INET = IPV4 32bits Ip adresses. 
-# SOCK_STREAM = TCP
+#Function to grab banner from a given IP and port
+#AF_INET = IPV4 32bits Ip adresses. 
+#SOCK_STREAM = TCP
 def banner_grabber(ip, port):
     #Validate IP address
     try:
