@@ -98,7 +98,7 @@ def argument_parser():
 #The main function is the execution of the script, including environment checks and user interaction
 def main():
     argument_parser()
-    #check_os()
+    check_os()
     check_internet_connection()
     print("Environment check passed. Starting the tool...\n")
     setup_logging()
