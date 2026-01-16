@@ -39,6 +39,11 @@ safe error handling
 
 educational and defensive use cases
 
+Here you can see a live demo of the program while it is running. 
+https://youtu.be/vl_PHvqtCcQ
+
+The screenshot shown in the documentation is taken from the IP Tracker module, using a sample IP address, as I did not want to expose my own IP address.
+
 ---
 
 ## ✨ Key Features
@@ -152,6 +157,8 @@ All errors and exceptional conditions are handled without crashing the program.
 
 Network timeouts and unreachable hosts are reported clearly to the user.
 
+The log file is saved in a folder named logs in the current working directory.
+If the logs folder does not exist, it is created automatically when the script runs.
 
 ---
 
